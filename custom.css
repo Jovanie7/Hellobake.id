@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: 'Pinyonscript';
-  src: url('PinyonScript-Regular'.ttf);
+  src: url('PinyonScript-Regular.ttf');
 }
 
 
@@ -339,4 +339,5 @@ nav ul li a {
   from { transform: translateX(100%); opacity: 0; }
   to { transform: translateX(0); opacity: 1; }
 }
+
 
