@@ -6,7 +6,7 @@
 }
 
 @font-face {
-    font-family: 'Quotenote';
+    font-family: 'QuotenoteDEMO';
     src: url('quotenoteDEMO.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
@@ -122,7 +122,6 @@ nav ul li a {
   transition: all 0.3s ease;
   font-weight: 1000;
 }
-
 
 .container {
   display: flex;
@@ -269,5 +268,6 @@ nav ul li a {
 #back-btn:hover {
   background-color: #b22222;
 }
+
 
 
