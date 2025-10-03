@@ -6,7 +6,7 @@
 }
 
 @font-face {
-    font-family: 'Quotenote';
+    font-family: 'QuotenoteDEMO';
     src: url('quotenoteDEMO.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
@@ -339,5 +339,6 @@ nav ul li a {
   from { transform: translateX(100%); opacity: 0; }
   to { transform: translateX(0); opacity: 1; }
 }
+
 
 
