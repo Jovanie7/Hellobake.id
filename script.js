@@ -364,4 +364,18 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
+
+});
+
+/* ABOUT US PAGE */
+const envelope = document.getElementById("envelope");
+const teamContainer = document.getElementById("teamContainer");
+
+envelope.addEventListener("click", () => {
+  envelope.classList.add("open");
+  setTimeout(() => {
+    envelope.style.display = "none";
+    teamContainer.classList.remove("hidden");
+    setTimeout(() => teamContainer.classList.add("show"), 50);
+  }, 1000); // delay sampai flap selesai buka
 });
