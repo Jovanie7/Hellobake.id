@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "Small (20x10 cm)", price: 95000 },
             { label: "Large (20x20 cm)", price: 190000 }
           ],
-          img: "brownies.jpg",
+          img: "Picture/brownies.jpg",
           bestSeller: true
         },
         { 
@@ -462,4 +462,5 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
 
