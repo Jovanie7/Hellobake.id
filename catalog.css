@@ -1,25 +1,25 @@
 @font-face {
     font-family: 'GOTHICB';
-    src: url(../Font/GOTHICB.TTF) format('truetype'); 
+    src: url('GOTHICB.TTF') format('truetype'); 
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Quotenote';
-    src: url(../Font/quotenoteDEMO.otf) format('opentype');
+    src: url('quotenoteDEMO.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lora';
-    src: url(../Font/Lora-VariableFont_wght.ttf) format('truetype');
+    src: url('Lora-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Pinyonscript';
-  src: url(../Font/PinyonScript-Regular.ttf);
+  src: url('PinyonScript-Regular.ttf');
 }
 
 
@@ -62,6 +62,7 @@ nav {
     padding: 10px 20px;
     background-color: #fff;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+
     position: fixed;  /* bikin navbar tetap */
     top: 0;           /* di atas halaman */
     left: 0;
@@ -111,10 +112,12 @@ nav ul li a {
 }
 
 .navlist li a.active {
-    color: #b22222;
-    padding: 5px 12px;
-    transition: all 0.3s ease;
-    font-weight: 1000;
+  color: #b22222;
+  background: #ffdede;   /* biar lebih kelihatan */
+  border-radius: 5px;
+  padding: 5px 12px;
+  transition: all 0.3s ease;
+  font-weight: 1000;
 }
 
 /* Catalog Section */
@@ -291,3 +294,4 @@ nav ul li a {
     grid-template-columns: 1fr; /* 1 card per baris di mobile */
   }
 }
+
