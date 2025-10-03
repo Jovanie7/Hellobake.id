@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "Small (20x10 cm)", price: 95000 },
             { label: "Large (20x20 cm)", price: 190000 }
           ],
-          img: "../Picture/brownies.jpg",
+          img: "brownies.jpg",
           bestSeller: true
         },
         { 
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "Small (20x10 cm)", price: 105000 },
             { label: "Large (20x20 cm)", price: 210000 }
           ],
-          img: "../Picture/browniepeanut.jpg"
+          img: "browniepeanut.jpg"
         },
         { 
           name: "Almond ⭐", 
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "Small (20x10 cm)", price: 100000 },
             { label: "Large (20x20 cm)", price: 200000 }
           ],
-          img: "../Picture/browniealmond.jpg"
+          img: "browniealmond.jpg"
         },
         { 
           name: "Cheesecake", 
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "Small (20x10 cm)", price: 140000 },
             { label: "Large (20x20 cm)", price: 275000 }
           ],
-          img: "../Picture/browniecheese.jpg"
+          img: "browniecheese.jpg"
         },
         { 
           name: "Chocolate", 
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "Small (20x10 cm)", price: 105000 },
             { label: "Large (20x20 cm)", price: 210000 }
           ],
-          img: "../Picture/browniechoco.jpg"
+          img: "browniechoco.jpg"
         },
         { 
           name: "Nutella", 
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "Small (20x10 cm)", price: 105000 },
             { label: "Large (20x20 cm)", price: 210000 }
           ],
-          img: "../Picture/brownienuttela.jpg"
+          img: "brownienuttela.jpg"
         },
         { 
           name: "Oreo", 
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "Small (20x10 cm)", price: 100000 },
             { label: "Large (20x20 cm)", price: 200000 }
           ],
-          img: "../Picture/browniechoco.jpg"
+          img: "browniechoco.jpg"
         },
         { 
           name: "Lotus Biscoff", 
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "Small (20x10 cm)", price: 105000 },
             { label: "Large (20x20 cm)", price: 210000 }
           ],
-          img: "../Picture/brownielotus.jpg"
+          img: "brownielotus.jpg"
         },
       ]
     },
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "10 cm", price: 95000 },
             { label: "15 cm", price: 190000 }
           ],
-          img: "../Picture/burntori.jpg",
+          img: "burntori.jpg",
           bestSeller: true
         },
         { 
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "10 cm", price: 95000 },
             { label: "15 cm", price: 190000 }
           ],
-          img: "../Picture/burntchoco.jpg"
+          img: "burntchoco.jpg"
         },
         { 
           name: "Matcha", 
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "10 cm", price: 95000 },
             { label: "15 cm", price: 190000 }
           ],
-          img: "../Picture/burntmatcha.jpg"
+          img: "burntmatcha.jpg"
         }
       ]
     },
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "20 x 10 cm", price: 245000 },
              { label: "20 x 20 cm", price: 485000 }
           ],
-          img: "../Picture/pistachiobrownietrans.png",
+          img: "pistachiobrownietrans.png",
           bestSeller: true
         }
       ]
@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "Bundle of 10", price: 266000 }
 
           ],
-          img: "../Picture/cookieori.jpg",
+          img: "cookieori.jpg",
           bestSeller: true
         },
          { 
@@ -141,7 +141,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "Bundle of 10", price: 266000 }
 
           ],
-          img: "../Picture/cookiedouble.jpg",
+          img: "cookiedouble.jpg",
           bestSeller: true
         },
          { 
@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "Bundle of 10", price: 266000 }
 
           ],
-          img: "../Picture/cookiered.jpg",
+          img: "cookiered.jpg",
           bestSeller: true
         },
          { 
@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "Bundle of 10", price: 266000 }
 
           ],
-          img: "../Picture/cookieori.jpg",
+          img: "cookieori.jpg",
           bestSeller: true
         },
          { 
@@ -180,7 +180,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "Bundle of 10", price: 266000 }
 
           ],
-          img: "../Picture/cookiekindernoy.jpg",
+          img: "cookiekindernoy.jpg",
           bestSeller: true
         },
          { 
@@ -193,7 +193,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "Bundle of 10", price: 266000 }
 
           ],
-          img: "../Picture/cookienutella.jpg",
+          img: "cookienutella.jpg",
           bestSeller: true
         },
          { 
@@ -206,7 +206,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "Bundle of 10", price: 266000 }
 
           ],
-          img: "../Picture/cookielotus.jpg",
+          img: "cookielotus.jpg",
           bestSeller: true
         },
          { 
@@ -219,7 +219,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "Bundle of 10", price: 266000 }
 
           ],
-          img: "../Picture/cookiesmores.jpg",
+          img: "cookiesmores.jpg",
           bestSeller: true
         },
          { 
@@ -232,7 +232,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "Bundle of 10", price: 266000 }
 
           ],
-          img: "../Picture/cookiematcha.jpg",
+          img: "cookiematcha.jpg",
           bestSeller: true
         },
          { 
@@ -245,7 +245,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { label: "Bundle of 10", price: 266000 }
 
           ],
-          img: "../Picture/cookiepeanut.jpg",
+          img: "cookiepeanut.jpg",
           bestSeller: true
         }
       ]
@@ -258,7 +258,7 @@ document.addEventListener("DOMContentLoaded", () => {
           sizes: [
             { label: "1 Piece", price: 14000 },
           ],
-          img: "../Picture/saltbreadori.jpg",
+          img: "saltbreadori.jpg",
           bestSeller: true
         },
         { 
@@ -266,7 +266,7 @@ document.addEventListener("DOMContentLoaded", () => {
           sizes: [
             { label: "1 Piece", price: 15000 },
           ],
-          img: "../Picture/saltbreadgarlic.jpg",
+          img: "saltbreadgarlic.jpg",
           bestSeller: true
         },
         { 
@@ -274,7 +274,7 @@ document.addEventListener("DOMContentLoaded", () => {
           sizes: [
             { label: "1 Piece", price: 25000 },
           ],
-          img: "../Picture/saltbreadchoco.jpg",
+          img: "saltbreadchoco.jpg",
           bestSeller: true
         },
         { 
@@ -282,7 +282,7 @@ document.addEventListener("DOMContentLoaded", () => {
           sizes: [
             { label: "1 Piece", price: 26000 },
           ],
-          img: "../Picture/saltbreadfloss.jpg",
+          img: "saltbreadfloss.jpg",
           bestSeller: true
         },
         { 
@@ -290,7 +290,7 @@ document.addEventListener("DOMContentLoaded", () => {
           sizes: [
             { label: "1 Piece", price: 20000 },
           ],
-          img: "../Picture/saltbreadhamncheese.jpg",
+          img: "saltbreadhamncheese.jpg",
           bestSeller: true
         },
         { 
@@ -298,7 +298,7 @@ document.addEventListener("DOMContentLoaded", () => {
           sizes: [
             { label: "1 Piece", price: 25000 },
           ],
-          img: "../Picture/saltbreadtruffle.jpg",
+          img: "saltbreadtruffle.jpg",
           bestSeller: true
         },
         { 
@@ -306,7 +306,7 @@ document.addEventListener("DOMContentLoaded", () => {
           sizes: [
             { label: "1 Piece", price: 25000 },
           ],
-          img: "../Picture/saltbreadmozza.jpg",
+          img: "saltbreadmozza.jpg",
           bestSeller: true
         },
       ]
@@ -319,7 +319,7 @@ document.addEventListener("DOMContentLoaded", () => {
           sizes: [
             { label: "30 x 30 cm", price: 60000 },
           ],
-          img: "../Picture/milkbunplain.jpg",
+          img: "milkbunplain.jpg",
           bestSeller: true
         },
         { 
@@ -327,7 +327,7 @@ document.addEventListener("DOMContentLoaded", () => {
           sizes: [
             { label: "30 x 30 cm", price: 75000 },
           ],
-          img: "../Picture/milkbuncrunchy.webp",
+          img: "milkbuncrunchy.webp",
           bestSeller: true
         },
         { 
@@ -335,7 +335,7 @@ document.addEventListener("DOMContentLoaded", () => {
           sizes: [
             { label: "30 x 30 cm", price: 85000 },
           ],
-          img: "../Picture/milkbunplain.jpg",
+          img: "milkbunplain.jpg",
           bestSeller: true
         },
         { 
@@ -343,7 +343,7 @@ document.addEventListener("DOMContentLoaded", () => {
           sizes: [
             { label: "30 x 30 cm", price: 85000 },
           ],
-          img: "../Picture/milkbunblueberry.webp",
+          img: "milkbunblueberry.webp",
           bestSeller: true
         },
         { 
@@ -351,7 +351,7 @@ document.addEventListener("DOMContentLoaded", () => {
           sizes: [
             { label: "30 x 30 cm", price: 100000 },
           ],
-          img: "../Picture/milkbunnutella.jpg",
+          img: "milkbunnutella.jpg",
           bestSeller: true
         },
         { 
@@ -359,7 +359,7 @@ document.addEventListener("DOMContentLoaded", () => {
           sizes: [
             { label: "30 x 30 cm", price: 110000 },
           ],
-          img: "../Picture/milkbunnutella.jpg",
+          img: "milkbunnutella.jpg",
           bestSeller: true
         },
         { 
@@ -367,7 +367,7 @@ document.addEventListener("DOMContentLoaded", () => {
           sizes: [
             { label: "30 x 30 cm", price: 100000 },
           ],
-          img: "../Picture/milkbunplain.jpg",
+          img: "milkbunplain.jpg",
           bestSeller: true
         },
         { 
@@ -375,7 +375,7 @@ document.addEventListener("DOMContentLoaded", () => {
           sizes: [
             { label: "30 x 30 cm", price: 145000 },
           ],
-          img: "../Picture/milkbundark.jpg",
+          img: "milkbundark.jpg",
           bestSeller: true
         }
       ]
@@ -462,3 +462,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
