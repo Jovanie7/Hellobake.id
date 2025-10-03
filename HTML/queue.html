@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Queue - Hellobake</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/queue.css">
+</head>
+<body>
+
+   <nav>
+        <div class="logo-hellobake">
+            <a href="index.html" class="logo-hellobake">
+            <img src="../Picture/Logo.jpg">
+            <h3>Hellobake.id</h3>
+            </a>
+        </div>
+
+        <ul class="navlist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#our-menu">Menu</a></li>
+            <li><a href="index.html#custom-hampers" class="active">Hampers</a></li>
+            <li><a href="index.html#testimonial-section">Testimonial</a></li>
+            <li><a href="index.html#about">About Us</a></li>
+        </ul>
+
+
+        <div class="navbutton" onclick="hellobakenav()">
+         ☰
+        </div>
+    </nav>
+
+
+ <section class="queue-section">
+  <div class="container">
+    <h1 class="page-title">Kode Antrian Anda</h1>
+
+    <!-- Queue Card -->
+    <div class="queue-card">
+      <p class="queue-code" id="queue-code">#A001</p>
+      <p class="order-summary" id="order-summary">Belum ada pesanan.</p>
+    </div>
+
+    <!-- Pilihan Metode Pengambilan -->
+<div class="pickup-method">
+  <h3>Metode Pengambilan</h3>
+  <label>
+    <input type="radio" name="pickup" value="booth" checked> Ambil di Booth
+  </label>
+  <label>
+    <input type="radio" name="pickup" value="delivery"> Kirim ke Rumah
+  </label>
+</div>
+
+    <!-- Instructions -->
+    <div class="instructions">
+      <h2>Instruksi</h2>
+      <ol>
+        <li>Ambil pesanan Anda di booth Hellobake, atau</li>
+        <li>Isi data alamat pengiriman untuk hampers dikirim ke rumah Anda.</li>
+      </ol>
+      <p class="note">Pastikan menyimpan kode antrian untuk memudahkan pengambilan atau verifikasi.</p>
+    </div>
+
+    <!-- Address Box -->
+    <div class="address-box">
+      <h3>Alamat Penerima</h3>
+      <input type="text" id="recipient-name" placeholder="Nama penerima">
+      <input type="text" id="street-address" placeholder="Alamat jalan">
+      <input type="text" id="city" placeholder="Kota">
+      <input type="text" id="postal-code" placeholder="Kode pos">
+    </div>
+
+    <button id="download-btn" class="home-btn">Download Struk PNG</button>
+    <button id="back-btn" onclick="window.location.href='index.html'" class="home-btn">Kembali ke home</button>
+
+  </div>
+</section>
+
+<script src="../js/queue.js"></script>
+</body>
+</html>
+

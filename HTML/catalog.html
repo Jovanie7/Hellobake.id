@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hellobake Catalog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/catalog.css">
+</head>
+<body>
+
+     <nav>
+        <div class="logo-hellobake">
+            <a href="index.html" class="logo-hellobake">
+            <img src="../Picture/Logo.jpg">
+            <h3>Hellobake.id</h3>
+            </a>
+        </div>
+
+        <ul class="navlist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#our-menu" class="active">Menu</a></li>
+            <li><a href="index.html#custom-hampers">Hampers</a></li>
+            <li><a href="index.html#testimonial-section">Testimonial</a></li>
+            <li><a href="index.html#about">About Us</a></li>
+        </ul>
+
+
+        <div class="navbutton" onclick="hellobakenav()">
+         ☰
+        </div>
+    </nav>
+
+  <section class="catalog-section">
+    <h1 class="catalog-title">Our Menu</h1>
+    <div class="product-grid animated-grid" id="product-grid">
+  <!-- JS akan generate produk -->
+</div>
+
+<div style="text-align: center; margin-top:20px;">
+  <button id="back-btn" onclick="window.location.href='index.html'">Back to Home Page</button>
+</div>
+
+  </section>
+
+  <script src="../js/catalog.js"></script>
+</body>
+</html>
