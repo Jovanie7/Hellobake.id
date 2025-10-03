@@ -6,7 +6,7 @@
 }
 
 @font-face {
-    font-family: 'Quotenote';
+    font-family: 'QuotenoteDEMO';
     src: url('quotenoteDEMO.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
@@ -346,4 +346,5 @@ textarea {
   line-height: 1.4;
   margin-top: -20px;
 }
+
 
