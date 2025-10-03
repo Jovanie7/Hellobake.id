@@ -6,7 +6,7 @@
 }
 
 @font-face {
-    font-family: 'Quotenote';
+    font-family: 'QuotenoteDEMO';
     src: url('quotenoteDEMO.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
@@ -54,7 +54,7 @@ body {
 }
 
 .logo-hellobake h3 {
-    font-family: 'Quotenote';
+    font-family: 'QuotenoteDEMO';
     color: #A10200;
     margin: 0;
 }
@@ -346,6 +346,7 @@ textarea {
   line-height: 1.4;
   margin-top: -20px;
 }
+
 
 
 
