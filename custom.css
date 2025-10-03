@@ -1,25 +1,25 @@
 @font-face {
     font-family: 'GOTHICB';
-    src: url(../Font/GOTHICB.TTF) format('truetype'); 
+    src: url('GOTHICB.TTF') format('truetype'); 
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Quotenote';
-    src: url(../Font/quotenoteDEMO.otf) format('opentype');
+    src: url('quotenoteDEMO.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lora';
-    src: url(../Font/Lora-VariableFont_wght.ttf) format('truetype');
+    src: url('Lora-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Pinyonscript';
-  src: url(../Font/PinyonScript-Regular.ttf);
+  src: url('PinyonScript-Regular'.ttf);
 }
 
 
@@ -339,3 +339,4 @@ nav ul li a {
   from { transform: translateX(100%); opacity: 0; }
   to { transform: translateX(0); opacity: 1; }
 }
+
