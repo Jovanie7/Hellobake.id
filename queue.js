@@ -149,7 +149,7 @@ y = wrapText(ctx, additionalMessage, 20, y, canvas.width - 40, 22);
 
     // Logo
     const logo = new Image();
-    logo.src = "../Picture/LOGO.jpg";
+    logo.src = "LOGO.jpg";
     logo.onload = () => {
       ctx.drawImage(logo, 450, 20, 120, 120);
       const link = document.createElement("a");
@@ -207,3 +207,4 @@ y = wrapText(ctx, additionalMessage, 20, y, canvas.width - 40, 22);
   }
 
 });
+
