@@ -1176,6 +1176,177 @@ max-width: 100%;
   letter-spacing: 1px;
 }
 
+/* ===== ABOUT US SECTION STYLING ===== */
+.team-section {
+  padding: 100px 20px;
+  background: #f9f6f1;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  position: relative;
+}
+
+/* --- Amplop --- */
+.envelope {
+  width: 800px;
+  height: 400px;
+  margin: 0 auto 0px;
+  position: relative;
+  cursor: pointer;
+  perspective: 1000px;
+animation: glowPulse 3s infinite alternate ease-in-out;
+
+  /* biar halus saat transform */
+  transition: transform 0.4s ease;
+}
+
+/* Efek scale pas hover */
+.envelope:hover {
+  transform: scale(1.05);
+}
+
+/* Glow emas */
+@keyframes glowPulse {
+  0% {
+    filter: drop-shadow(0 0 4px rgba(212,175,55,0.5)) 
+            drop-shadow(0 0 8px rgba(212,175,55,0.3));
+  }
+  100% {
+    filter: drop-shadow(0 0 12px rgba(212,175,55,0.8)) 
+            drop-shadow(0 0 24px rgba(212,175,55,0.6));
+  }
+}
+
+.envelope-front {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border: 2px solid #d4af37;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  position: relative;
+  z-index: 2;
+}
+.envelope-front h2 {
+    align-content: center;
+    font-family: 'Pinyonscript';
+    font-size: 50px;
+    font-style: normal;
+    color: #e6c767;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-top: 0;
+    word-spacing: normal;
+    letter-spacing: normal;
+    position: relative;
+    overflow: hidden;
+    animation: fadeIn 5s forwards;
+    margin-top: 150px;
+}
+
+/* Efek shiny bergerak */
+.envelope-front h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(
+        120deg,
+        rgba(255,255,255,0) 0%,
+        rgba(255,255,255,0.6) 50%,
+        rgba(255,255,255,0) 100%
+    );
+    animation: shine 6s infinite;
+}
+.envelope-front .hint {
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #777;
+  font-style: italic;
+}
+
+/* Flap */
+.envelope-flap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: #d4af37;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  transform-origin: top;
+  transition: transform 1s ease;
+  z-index: 3;
+}
+
+/* Open envelope animation */
+.envelope.open .envelope-flap {
+  transform: rotateX(-180deg);
+}
+
+/* --- Team Cards --- */
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.team-container.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.team-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 30px 20px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  border: 2px solid transparent;
+  position: relative;
+}
+.team-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  padding: 2px;
+  background: linear-gradient(120deg, transparent, #d4af37, transparent);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  animation: shineBorder 4s linear infinite;
+}
+@keyframes shineBorder {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.team-card h3 {
+  font-size: 1.3rem;
+  color: #d4af37;
+  margin-bottom: 6px;
+  font-family: 'Pinyonscript';
+  font-size: 30px;
+}
+.team-card p {
+  color: #444;
+  font-size: 1rem;
+}
+.team-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.15);
+}
+
 
 
 
@@ -1426,6 +1597,7 @@ body {
 
 
 }
+
 
 
 
